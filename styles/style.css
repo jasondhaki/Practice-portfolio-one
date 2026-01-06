@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Styles */
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn a{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: auto;
+    text-decoration: none;
+}
+/* Individual Styles */
+
+
+/* Header Section */
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+#header-bg{
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+    margin-left: 23px;
+
+}
+
+#logo h2{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: auto;
+}
+
+#logo span{
+    color: #FD6E0A;
+}
+
+#top-nav-bar{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto 46px;
+}
+
+#nav-options ul{
+    margin-right: 51px;
+    gap: 68px;
+    max-width: 189px;
+}
+
+#nav-options ul li{
+    list-style-type: none;
+}
+
+#nav-options ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+    line-height: auto;
+}
+
+#top-nav-bar-btn{
+    padding: 18.28px 38px 19.3px 39px;
+    max-width: 150px;
+}
+
+/* Top Hero */
+
+#hero-bg{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto;
+}
+
+.hero-banner{
+    max-width: 1309px;
+    width: 100%;
+    margin-left: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#download-cv-btn{
+    padding: 19px 17px 18px 17px;
+    max-width: 200px;
+}
+
+#contact-btn{
+    padding: 19px 24px 18px 25px;
+    max-width: 160px;
+}
+
+.two-btns{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.two-btns button a i{
+    margin-right: 11px;
+}
+
+#hero-text-content h3{
+    line-height: auto;
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+#hero-text-content h1{
+    line-height: auto;
+    font-size: 85px;
+    margin: 5px 0 20px;
+    font-weight: 700;
+    color: #181818;
+}
+
+#hero-text-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    max-width: 585px;
+}
+
+#hero-img img{
+    display: block;
+    width: 100%;
+}
+
+/* About Me Section */
+
+#about {
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.internal{
+    max-width: 827px;
+    margin: 0 auto;
+}
+
+#about-section h5{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #181818;
+}
+
+#about-section p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+    text-align: center; 
+}
+
+#about-section ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-section ul li{
+    list-style-type: none;
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#about-section ul li span{
+    font-weight: 700;
+    display: block;
+}
