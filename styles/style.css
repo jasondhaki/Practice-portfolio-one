@@ -23,10 +23,6 @@
     border-radius: 5px;
 }
 
-.btn:hover{
-    background-color: #fff;
-}
-
 .btn a{
     font-size: 20px;
     font-weight: 700;
@@ -42,7 +38,7 @@
 
 main {
     background-color: #F3F3F3;
-    padding: 130px 0;
+    padding: 130px 0 0;
 }
 
 .mini-title{
@@ -317,4 +313,86 @@ header{
 #bottom-cv-download{
     width: 100%;
     margin: 0 auto;
+}
+
+/* Let's Connect */
+#connect{
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 0;
+}
+
+#connect-internal{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#connect-internal ul{
+    display: flex;
+    gap: 90px;
+}
+
+#connect-internal ul li{
+    list-style-type: none;
+    max-width: 550px;
+}
+
+#connect-internal ul li h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: auto;
+    color: #181818;
+}
+
+#connect-internal ul li p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin: 20px 0 30px;
+}
+
+.socials{
+    display: flex;
+    gap: 24px;
+}
+
+#connect-internal ul li form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 28px;
+}
+
+#connect-internal ul li form input{
+    width: 500px;
+    display: block;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 18px 30px;
+    color: #757575;
+}
+
+#connect-internal ul li form textarea{
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #757575;
+    font-family: "Open Sans", sans-serif;
+    padding: 18px 0 0 30px;
+    margin-bottom: 24px;
+}
+
+#form-submit-btn{
+    padding: 18px 39px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
 }
