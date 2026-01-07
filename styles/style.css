@@ -19,21 +19,25 @@
 
 .btn{
     background-color: #FD6E0A;
-    border: none;
+    border: 1px solid #FD6E0A;
     border-radius: 5px;
-}
-
-.btn a{
     font-size: 20px;
     font-weight: 700;
     color: #fff;
     line-height: auto;
     text-decoration: none;
+    transition: background-color 0.5s, color 0.5s; 
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #FD6E0A;
 }
 
 .download-cv-btn{
     padding: 19px 17px 18px 17px;
     max-width: 200px;
+    width: 100%;
 }
 
 main {
@@ -121,7 +125,7 @@ header{
 }
 
 #top-nav-bar-btn{
-    padding: 18.28px 38px 19.3px 39px;
+    padding: 18.28px 35px 19.3px 35px;
     max-width: 150px;
 }
 
@@ -311,7 +315,6 @@ header{
 }
 
 #bottom-cv-download{
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -385,14 +388,27 @@ header{
     font-weight: 400;
     color: #757575;
     font-family: "Open Sans", sans-serif;
-    padding: 18px 0 0 30px;
+    padding: 18px 30px;
     margin-bottom: 24px;
+    resize: none;
+    overflow-y: auto;
 }
 
 #form-submit-btn{
     padding: 18px 39px;
     font-size: 20px;
     font-weight: 700;
-    color: #fff;
     cursor: pointer;
+}
+
+/* Footer */
+footer{
+    background-color: #181818;
+    padding: 10px 0;
+}
+
+footer p{
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 16px;
 }
