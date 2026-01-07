@@ -23,12 +23,21 @@
     border-radius: 5px;
 }
 
+.btn:hover{
+    background-color: #fff;
+}
+
 .btn a{
     font-size: 20px;
     font-weight: 700;
     color: #fff;
     line-height: auto;
     text-decoration: none;
+}
+
+.download-cv-btn{
+    padding: 19px 17px 18px 17px;
+    max-width: 200px;
 }
 
 main {
@@ -56,8 +65,14 @@ main {
     max-width: 827px;
     margin: 0 auto;
 }
-/* Individual Styles */
 
+.straight-line{
+    width: 558px;
+    background-color: #D1D1D1;
+    height: 1px;
+}
+
+/* Individual Styles */
 
 /* Header Section */
 header{
@@ -130,11 +145,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#download-cv-btn{
-    padding: 19px 17px 18px 17px;
-    max-width: 200px;
 }
 
 #contact-btn{
@@ -245,4 +255,66 @@ header{
     font-weight: 400;
     line-height: 28px;
     color: #757575;
+}
+
+/* Resume */
+
+#resume{
+    margin-top: 113px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#resume ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#resume ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#resume ul li h3{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: auto;
+    margin-bottom: 30px;
+}
+
+#resume ul li article{
+    max-width: 450px;
+}
+
+#resume ul li article h2{
+    font-weight: 700;
+    color: #474747;
+    font-size: 25px;
+    line-height: auto;
+}
+
+#resume ul li article h4{
+    font-weight: 600;
+    color: #757575;
+    font-size: 20px;
+    line-height: auto;
+}
+
+#resume ul li article p{
+    font-weight: 400;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#bottom-cv-download{
+    width: 100%;
+    margin: 0 auto;
 }
